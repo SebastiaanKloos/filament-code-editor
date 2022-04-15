@@ -2,9 +2,9 @@
 
 namespace SebastiaanKloos\FilamentCodeeditor;
 
+use SebastiaanKloos\FilamentCodeeditor\Commands\FilamentCodeeditorCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use SebastiaanKloos\FilamentCodeeditor\Commands\FilamentCodeeditorCommand;
 
 class FilamentCodeeditorServiceProvider extends PackageServiceProvider
 {

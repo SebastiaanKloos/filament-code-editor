@@ -18,7 +18,7 @@ composer require sebastiaankloos/filament-codeeditor
 ## Usage
 
 ```php
-use SebastiaanKloos\FilamentCodeEditor\Components\CodeEditor;
+use SebastiaanKloos\FilamentCodeeditor\Components\CodeEditor;
 
 CodeEditor::make('custom_css'),
 ```

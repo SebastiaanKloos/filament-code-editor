@@ -1,0 +1,18 @@
+{
+  "name": "filament-code-editor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sebastiaan Kloos <sebastiaankloos@pm.me>",
+  "license": "MIT",
+  "dependencies": {
+    "@codemirror/basic-setup": "^0.19.3",
+    "@codemirror/gutter": "^0.19.9",
+    "@codemirror/lang-css": "^0.19.3",
+    "@codemirror/lang-javascript": "^0.19.7",
+    "@codemirror/lang-php": "^0.19.1",
+    "esbuild": "^0.14.34"
+  },
+  "scripts": {
+    "build": "node bin/build"
+  }
+}

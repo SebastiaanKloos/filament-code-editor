@@ -8,7 +8,7 @@ return new class extends Migration
 {
     public function up()
     {
-        Schema::create('filament_codeeditor_table', function (Blueprint $table) {
+        Schema::create('filament_code_editor_table', function (Blueprint $table) {
             $table->id();
 
             // add fields

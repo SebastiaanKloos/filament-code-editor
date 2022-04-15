@@ -1,12 +1,12 @@
 {
-    "name": "sebastiaankloos/filament-codeeditor",
+    "name": "sebastiaankloos/filament-code-editor",
     "description": "Code editor for Filament",
     "keywords": [
         "SebastiaanKloos",
         "laravel",
-        "filament-codeeditor"
+        "filament-code-editor"
     ],
-    "homepage": "https://github.com/sebastiaankloos/filament-codeeditor",
+    "homepage": "https://github.com/sebastiaankloos/filament-code-editor",
     "license": "MIT",
     "authors": [
         {
@@ -17,8 +17,9 @@
     ],
     "require": {
         "php": "^8.1",
-        "spatie/laravel-package-tools": "^1.9.2",
-        "illuminate/contracts": "^9.0"
+        "filament/filament": "^2.10",
+        "illuminate/contracts": "^9.0",
+        "spatie/laravel-package-tools": "^1.9.2"
     },
     "require-dev": {
         "nunomaduro/collision": "^6.0",
@@ -34,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "SebastiaanKloos\\FilamentCodeeditor\\": "src",
-            "SebastiaanKloos\\FilamentCodeeditor\\Database\\Factories\\": "database/factories"
+            "SebastiaanKloos\\FilamentCodeEditor\\": "src",
+            "SebastiaanKloos\\FilamentCodeEditor\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SebastiaanKloos\\FilamentCodeeditor\\Tests\\": "tests"
+            "SebastiaanKloos\\FilamentCodeEditor\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,11 +55,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SebastiaanKloos\\FilamentCodeeditor\\FilamentCodeeditorServiceProvider"
-            ],
-            "aliases": {
-                "FilamentCodeeditor": "SebastiaanKloos\\FilamentCodeeditor\\Facades\\FilamentCodeeditor"
-            }
+                "SebastiaanKloos\\FilamentCodeEditor\\FilamentCodeEditorServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",

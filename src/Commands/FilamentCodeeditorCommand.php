@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace SebastiaanKloos\FilamentCodeeditor\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class FilamentCodeeditorCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'filament-codeeditor';
 
     public $description = 'My command';
 

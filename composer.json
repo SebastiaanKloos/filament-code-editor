@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "sebastiaankloos/filament-codeeditor",
+    "description": "Code editor for Filament",
     "keywords": [
-        ":vendor_name",
+        "SebastiaanKloos",
         "laravel",
-        ":package_slug"
+        "filament-codeeditor"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/sebastiaankloos/filament-codeeditor",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Sebastiaan Kloos",
+            "email": "sebastiaankloos@pm.me",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "SebastiaanKloos\\FilamentCodeeditor\\": "src",
+            "SebastiaanKloos\\FilamentCodeeditor\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "SebastiaanKloos\\FilamentCodeeditor\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "SebastiaanKloos\\FilamentCodeeditor\\FilamentCodeeditorServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentCodeeditor": "SebastiaanKloos\\FilamentCodeeditor\\Facades\\FilamentCodeeditor"
             }
         }
     },

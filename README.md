@@ -1,9 +1,9 @@
 # Code editor for Filament
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/sebastiaankloos/filament-codeeditor.svg?style=flat-square)](https://packagist.org/packages/sebastiaankloos/filament-codeeditor)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/sebastiaankloos/filament-codeeditor/run-tests?label=tests)](https://github.com/sebastiaankloos/filament-codeeditor/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/sebastiaankloos/filament-codeeditor/Check%20&%20fix%20styling?label=code%20style)](https://github.com/sebastiaankloos/filament-codeeditor/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/sebastiaankloos/filament-codeeditor.svg?style=flat-square)](https://packagist.org/packages/sebastiaankloos/filament-codeeditor)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/sebastiaankloos/filament-code-editor.svg?style=flat-square)](https://packagist.org/packages/sebastiaankloos/filament-code-editor)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/sebastiaankloos/filament-code-editor/run-tests?label=tests)](https://github.com/sebastiaankloos/filament-codee-ditor/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/sebastiaankloos/filament-codee-ditor/Check%20&%20fix%20styling?label=code%20style)](https://github.com/sebastiaankloos/filament-code-editor/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/sebastiaankloos/filament-code-editor.svg?style=flat-square)](https://packagist.org/packages/sebastiaankloos/filament-code-editor)
 
 This package provides a code editor form field type for Filament. It's based on CodeMirror 6.
 

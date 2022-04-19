@@ -1,3 +1,3 @@
 # Changelog
 
-All notable changes to `filament-codeeditor` will be documented in this file.
+All notable changes to `filament-code-editor` will be documented in this file.

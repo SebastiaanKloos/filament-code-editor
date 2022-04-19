@@ -13016,6 +13016,7 @@
     { key: "Shift-Mod-k", run: deleteLine },
     { key: "Shift-Mod-\\", run: cursorMatchingBracket }
   ].concat(standardKeymap);
+  var indentWithTab = { key: "Tab", run: indentMore, shift: indentLess };
 
   // node_modules/@codemirror/closebrackets/dist/index.js
   var defaults2 = {
@@ -21231,23 +21232,24 @@
           this.render();
         },
         render() {
-          this.editorState = EditorState.create({
-            extensions: [
-              basicSetup,
-              javascript(),
-              php(),
-              css(),
-              EditorView.updateListener.of((v) => {
-                if (v.docChanged) {
-                  this.state = v.state.doc.toString();
-                }
-              })
-            ],
-            doc: this.state
-          });
           this.editor = null;
           this.editor = new EditorView({
-            state: this.editorState,
+            state: EditorState.create({
+              extensions: [
+                basicSetup,
+                keymap.of([indentWithTab]),
+                javascript(),
+                php(),
+                css(),
+                html(),
+                EditorView.updateListener.of((v) => {
+                  if (v.docChanged) {
+                    this.state = v.state.doc.toString();
+                  }
+                })
+              ],
+              doc: this.state
+            }),
             parent: this.$refs.codeeditor
           });
         }

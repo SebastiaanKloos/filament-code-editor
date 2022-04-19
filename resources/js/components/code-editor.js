@@ -1,7 +1,10 @@
-import { EditorState, EditorView, basicSetup } from "@codemirror/basic-setup";
+import { EditorState, basicSetup } from "@codemirror/basic-setup";
+import {EditorView, keymap} from "@codemirror/view";
+import { indentWithTab } from "@codemirror/commands";
 import { javascript } from "@codemirror/lang-javascript";
 import { php } from "@codemirror/lang-php";
 import { css } from "@codemirror/lang-css";
+import { html } from "@codemirror/lang-html";
 
 export default (Alpine) => {
     Alpine.data('codeEditorFormComponent', ({
@@ -13,25 +16,25 @@ export default (Alpine) => {
                 this.render();
             },
             render() {
-                this.editorState = EditorState.create({
-                    extensions: [
-                        basicSetup,
-                        javascript(),
-                        php(),
-                        css(),
-                        EditorView.updateListener.of((v) => {
-                            if (v.docChanged) {
-                                this.state = v.state.doc.toString();
-                            }
-                        }),
-                    ],
-                    doc: this.state
-                })
-
                 this.editor = null
 
                 this.editor = new EditorView({
-                    state: this.editorState,
+                    state: EditorState.create({
+                        extensions: [
+                            basicSetup,
+                            keymap.of([indentWithTab]),
+                            javascript(),
+                            php(),
+                            css(),
+                            html(),
+                            EditorView.updateListener.of((v) => {
+                                if (v.docChanged) {
+                                    this.state = v.state.doc.toString();
+                                }
+                            }),
+                        ],
+                        doc: this.state,
+                    }),
                     parent: this.$refs.codeeditor,
                 })
             },

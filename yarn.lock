@@ -46,7 +46,7 @@
     "@codemirror/text" "^0.19.0"
     "@codemirror/view" "^0.19.44"
 
-"@codemirror/commands@^0.19.0":
+"@codemirror/commands@^0.19.0", "@codemirror/commands@^0.19.8":
   version "0.19.8"
   resolved "https://registry.yarnpkg.com/@codemirror/commands/-/commands-0.19.8.tgz#1f99c1a8bf200d17c4d6997379099459f3678107"
   integrity sha512-65LIMSGUGGpY3oH6mzV46YWRrgao6NmfJ+AuC7jNz3K5NPnH6GCV1H5I6SwOFyVbkiygGyd0EFwrWqywTBD1aw==
@@ -118,7 +118,7 @@
     "@codemirror/state" "^0.19.0"
     "@lezer/css" "^0.15.2"
 
-"@codemirror/lang-html@^0.19.0":
+"@codemirror/lang-html@^0.19.0", "@codemirror/lang-html@^0.19.4":
   version "0.19.4"
   resolved "https://registry.yarnpkg.com/@codemirror/lang-html/-/lang-html-0.19.4.tgz#e6eec28462f18842a0e108732a214a7416b5e333"
   integrity sha512-GpiEikNuCBeFnS+/TJSeanwqaOfNm8Kkp9WpVNEPZCLyW1mAMCuFJu/3xlWYeWc778Hc3vJqGn3bn+cLNubgCA==

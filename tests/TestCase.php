@@ -2,8 +2,8 @@
 
 namespace SebastiaanKloos\FilamentCodeEditor\Tests;
 
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
+use Illuminate\Database\Eloquent\Factories\Factory;
 use SebastiaanKloos\FilamentCodeEditor\FilamentCodeEditorServiceProvider;
 
 class TestCase extends Orchestra

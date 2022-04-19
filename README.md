@@ -12,13 +12,13 @@ This package provides a code editor form field type for Filament. It's based on 
 You can install the package via composer:
 
 ```bash
-composer require sebastiaankloos/filament-codeeditor
+composer require sebastiaankloos/filament-code-editor
 ```
 
 ## Usage
 
 ```php
-use SebastiaanKloos\FilamentCodeeditor\Components\CodeEditor;
+use SebastiaanKloos\FilamentCodeEditor\Components\CodeEditor;
 
 CodeEditor::make('custom_css'),
 ```

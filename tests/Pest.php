@@ -1,5 +1,5 @@
 <?php
 
-use SebastiaanKloos\FilamentCodeeditor\Tests\TestCase;
+use SebastiaanKloos\FilamentCodeEditor\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

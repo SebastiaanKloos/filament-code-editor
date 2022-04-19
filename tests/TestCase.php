@@ -1,10 +1,10 @@
 <?php
 
-namespace SebastiaanKloos\FilamentCodeeditor\Tests;
+namespace SebastiaanKloos\FilamentCodeEditor\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use SebastiaanKloos\FilamentCodeeditor\FilamentCodeEditorServiceProvider;
+use SebastiaanKloos\FilamentCodeEditor\FilamentCodeEditorServiceProvider;
 
 class TestCase extends Orchestra
 {

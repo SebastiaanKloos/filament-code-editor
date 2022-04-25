@@ -23,6 +23,12 @@ use SebastiaanKloos\FilamentCodeEditor\Components\CodeEditor;
 CodeEditor::make('custom_css'),
 ```
 
+If you are using this package without Filament Admin, you should add the JS file manually.
+```js
+// You can add this to your app.js file
+require('../../vendor/sebastiaankloos/filament-code-editor/dist/filament-tools');
+```
+
 ## Testing
 
 ```bash

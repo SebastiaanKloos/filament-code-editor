@@ -3,6 +3,7 @@ import {EditorView, keymap} from "@codemirror/view";
 import { indentWithTab } from "@codemirror/commands";
 import { javascript } from "@codemirror/lang-javascript";
 import { php } from "@codemirror/lang-php";
+import { json } from "@codemirror/lang-json";
 import { css } from "@codemirror/lang-css";
 import { html } from "@codemirror/lang-html";
 
@@ -25,6 +26,7 @@ export default (Alpine) => {
                             keymap.of([indentWithTab]),
                             javascript(),
                             php(),
+                            json(),
                             css(),
                             html(),
                             EditorView.updateListener.of((v) => {

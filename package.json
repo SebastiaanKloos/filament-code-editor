@@ -10,7 +10,8 @@
     "@codemirror/gutter": "^0.19.9",
     "@codemirror/lang-css": "^0.19.3",
     "@codemirror/lang-html": "^0.19.4",
-    "@codemirror/lang-javascript": "^0.19.7",
+    "@codemirror/lang-javascript": "^0.20.0",
+    "@codemirror/lang-json": "^0.20.0",
     "@codemirror/lang-php": "^0.19.1",
     "@codemirror/view": "^0.19.48",
     "esbuild": "^0.14.34"

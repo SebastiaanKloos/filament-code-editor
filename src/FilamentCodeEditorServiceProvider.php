@@ -12,7 +12,7 @@ class FilamentCodeEditorServiceProvider extends PackageServiceProvider
     protected array $beforeCoreScripts = [
         'filament-tools' => __DIR__.'/../dist/filament-tools.js',
     ];
-    
+
     public function packageRegistered()
     {
         Filament::serving(function () {

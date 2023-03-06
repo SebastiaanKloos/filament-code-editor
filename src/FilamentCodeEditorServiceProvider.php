@@ -3,6 +3,7 @@
 namespace SebastiaanKloos\FilamentCodeEditor;
 
 use Filament\Facades\Filament;
+use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class FilamentCodeEditorServiceProvider extends PackageServiceProvider
@@ -12,6 +13,10 @@ class FilamentCodeEditorServiceProvider extends PackageServiceProvider
     protected array $beforeCoreScripts = [
         'filament-tools' => __DIR__.'/../dist/filament-tools.js',
     ];
+    
+    public function configurePackage(Package $package): void
+    {
+    }
 
     public function packageRegistered()
     {

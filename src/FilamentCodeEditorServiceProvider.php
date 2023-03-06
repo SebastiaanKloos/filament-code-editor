@@ -8,14 +8,13 @@ use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class FilamentCodeEditorServiceProvider extends PackageServiceProvider
 {
-    public static string $name = 'filament-code-editor';
-
     protected array $beforeCoreScripts = [
         'filament-tools' => __DIR__.'/../dist/filament-tools.js',
     ];
 
     public function configurePackage(Package $package): void
     {
+        $package->name('filament-code-editor');
     }
 
     public function packageRegistered()

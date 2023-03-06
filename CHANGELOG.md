@@ -2,6 +2,10 @@
 
 All notable changes to `filament-code-editor` will be documented in this file.
 
+## 1.1.4 - 2023-03-06
+
+**Full Changelog**: https://github.com/SebastiaanKloos/filament-code-editor/compare/1.1.3...1.1.4
+
 ## 1.1.2 - 2023-03-06
 
 **Full Changelog**: https://github.com/SebastiaanKloos/filament-code-editor/compare/1.1.1...1.1.2

@@ -2,6 +2,18 @@
 
 All notable changes to `filament-code-editor` will be documented in this file.
 
+## 1.1.5 - 2023-04-06
+
+### What's Changed
+
+- #16: Filament serving should be called when booting by @sweebee in https://github.com/SebastiaanKloos/filament-code-editor/pull/15
+
+### New Contributors
+
+- @sweebee made their first contribution in https://github.com/SebastiaanKloos/filament-code-editor/pull/15
+
+**Full Changelog**: https://github.com/SebastiaanKloos/filament-code-editor/compare/1.1.4...1.1.5
+
 ## 1.1.4 - 2023-03-06
 
 **Full Changelog**: https://github.com/SebastiaanKloos/filament-code-editor/compare/1.1.3...1.1.4

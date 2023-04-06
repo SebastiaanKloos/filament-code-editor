@@ -17,7 +17,8 @@ class FilamentCodeEditorServiceProvider extends PackageServiceProvider
         $package->name('filament-code-editor');
     }
 
-    public function bootingPackage() {
+    public function bootingPackage()
+    {
         Filament::serving(function () {
             Filament::registerScripts($this->beforeCoreScripts, true);
         });

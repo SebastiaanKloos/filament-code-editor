@@ -24,9 +24,15 @@ CodeEditor::make('custom_css'),
 ```
 
 If you are using this package without Filament Admin, you should add the JS file manually.
+Either via `require`
 ```js
 // You can add this to your app.js file
 require('../../vendor/sebastiaankloos/filament-code-editor/dist/filament-tools');
+```
+or as `import` statement:
+```js
+import CodeEditorAlpinePlugin from '../../vendor/sebastiaankloos/filament-code-editor/dist/module.esm';
+Alpine.plugin(CodeEditorAlpinePlugin);
 ```
 
 ## Testing
